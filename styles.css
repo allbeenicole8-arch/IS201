@@ -92,3 +92,83 @@ body {
 .button:hover {
     background-color: #B8893A;
 }
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.header {
+    max-width: 900px;
+    margin: 40px auto 20px auto;
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    text-align: center;
+}
+
+.header h1 {
+    color: #003366;
+}
+
+.nav {
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    background: #212529;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+.nav a:hover {
+    color: #adb5bd;
+}
+
+.content-box {
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.content-box h2 {
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+.travel-img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: 20px auto;
+}
+
+.footer {
+    max-width: 900px;
+    margin: 20px auto 40px auto;
+    background: #212529;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
