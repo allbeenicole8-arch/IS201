@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', serif;
-    background-color: #FFF4D6;
+    background-color: ##FCEED1;
     color: #333;
 }
 
 .navbar {
-    background-color: #212529;
+    background-color: #0000;
     padding: 15px 40px;
     display: flex;
     justify-content: space-between;
