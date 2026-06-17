@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Georgia, 'Times New Roman', serif;
-    background-color: #fff7f2;
+    background-color: #FFF4D6;
     color: #3d2b2b;
 }
 
@@ -10,7 +10,7 @@ body {
     background:
         url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=400&q=80") left top / 180px repeat-y,
         url("https://images.unsplash.com/photo-1490750967868-88aa4486c946?auto=format&fit=crop&w=400&q=80") right top / 180px repeat-y,
-        #fff7f2;
+        #FFF4D6;
 }
 
 .floral-border {
@@ -26,7 +26,7 @@ body {
 .home-header {
     text-align: center;
     padding: 30px;
-    background-color: #f7d9df;
+    background-color: #8B6B2E;
     border-radius: 20px;
 }
 
@@ -44,12 +44,13 @@ body {
 .nav-links {
     text-align: center;
     margin: 30px 0;
+    
 }
 
 .nav-links a {
     text-decoration: none;
     color: white;
-    background-color: #9b5f73;
+    background-color: #D4A95A;
     padding: 12px 18px;
     margin: 6px;
     border-radius: 25px;
@@ -57,7 +58,7 @@ body {
 }
 
 .nav-links a:hover {
-    background-color: #7b3f54;
+    background-color: #B8893A;
 }
 
 .home-card {
@@ -80,7 +81,7 @@ body {
 .button {
     display: inline-block;
     margin-top: 20px;
-    background-color: #d89aa5;
+    background-color: #D4A95A;
     color: white;
     padding: 14px 24px;
     border-radius: 25px;
@@ -89,5 +90,5 @@ body {
 }
 
 .button:hover {
-    background-color: #9b5f73;
+    background-color: #B8893A;
 }
