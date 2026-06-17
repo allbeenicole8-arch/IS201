@@ -2,13 +2,124 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/scratch.css">
+    <title>Nature & Travel in Mexico</title>
+    <link rel="stylesheet" href="scratch.css">
 </head>
+
 <body>
-    <a href="index.html">Back to Professional Site</a>
-    <a href="resume.html">View Résumé</a>
-    <a href="app.html">Try My Web App</a>
+
+    <div class="header" id="top">
+        <h1>Nature & Travel in Mexico</h1>
+        <p>Exploring beaches, mountains, culture, and adventure</p>
+    </div>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Résumé</a>
+        <a href="app.html">Travel App</a>
+        <a href="#video">Watch Mexico Travel Video</a>
+    </div>
+
+    <div class="content-box">
+        <h2>Why I Love Nature and Traveling</h2>
+        <p>
+            Traveling gives people the chance to experience beautiful landscapes,
+            new cultures, and unforgettable adventures. Mexico is especially inspiring
+            because it has beaches, jungles, mountains, historic cities, and colorful traditions.
+        </p>
+
+        <img src="https://images.unsplash.com/photo-1518105779142-d975f22f1b0a?auto=format&fit=crop&w=1200&q=80"
+             alt="Beautiful Mexico travel landscape"
+             class="travel-img">
+    </div>
+
+    <div class="content-box">
+        <h2>My Mexico Travel Bucket List</h2>
+
+        <ol>
+            <li>Nature destinations
+                <ul>
+                    <li>Visit beaches in Cancún or Tulum</li>
+                    <li>Explore waterfalls and jungles</li>
+                    <li>See mountains and volcanoes</li>
+                </ul>
+            </li>
+
+            <li>Cultural experiences
+                <ul>
+                    <li>Try authentic Mexican food</li>
+                    <li>Visit historic churches and plazas</li>
+                    <li>Practice speaking Spanish with locals</li>
+                </ul>
+            </li>
+
+            <li>Adventure activities
+                <ul>
+                    <li>Go snorkeling</li>
+                    <li>Hike scenic trails</li>
+                    <li>Take photos of nature and city views</li>
+                </ul>
+            </li>
+        </ol>
+    </div>
+
+    <div class="content-box" id="video">
+        <h2>Traveling to Mexico Video</h2>
+
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/NyJW-f_rjzU"
+            title="Mexico Travel Guide"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+
+    <div class="content-box">
+        <h2>Interactive Tableau Graph</h2>
+        <p>
+            This Tableau visualization shows travel-related data. You can interact with it by clicking and exploring.
+        </p>
+
+        <!-- Replace this with your own Tableau embed code if your teacher gave you one -->
+        <div class='tableauPlaceholder' id='viz1740000000000' style='position: relative'>
+            <noscript>
+                <a href='#'>
+                    <img alt='Travel Tableau Visualization'
+                    src='https://public.tableau.com/static/images/Re/RegionalSampleWorkbook/Storms/1_rss.png'
+                    style='border: none' />
+                </a>
+            </noscript>
+            <object class='tableauViz' style='display:none;'>
+                <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                <param name='embed_code_version' value='3' />
+                <param name='site_root' value='' />
+                <param name='name' value='RegionalSampleWorkbook/Storms' />
+                <param name='tabs' value='no' />
+                <param name='toolbar' value='yes' />
+                <param name='static_image' value='https://public.tableau.com/static/images/Re/RegionalSampleWorkbook/Storms/1.png' />
+                <param name='animate_transition' value='yes' />
+                <param name='display_static_image' value='yes' />
+                <param name='display_spinner' value='yes' />
+                <param name='display_overlay' value='yes' />
+                <param name='display_count' value='yes' />
+                <param name='language' value='en-US' />
+            </object>
+        </div>
+
+        <script type='text/javascript'>
+            var divElement = document.getElementById('viz1740000000000');
+            var vizElement = divElement.getElementsByTagName('object')[0];
+            vizElement.style.width='100%';
+            vizElement.style.height='600px';
+            var scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            vizElement.parentNode.insertBefore(scriptElement, vizElement);
+        </script>
+    </div>
+
+    <div class="footer">
+        <a href="#top">Back to Top</a>
+    </div>
+
 </body>
 </html>
